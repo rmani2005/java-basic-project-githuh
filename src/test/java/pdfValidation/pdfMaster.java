@@ -31,6 +31,8 @@ public class pdfMaster {
 		pdfUtil.highlightPdfDifference(true);
 		pdfUtil.setImageDestinationPath(ComparefilePath);
 		pdfUtil.compare(filePath, targetfilePath);
+		 
+		
 		
 		
 		//Method two
